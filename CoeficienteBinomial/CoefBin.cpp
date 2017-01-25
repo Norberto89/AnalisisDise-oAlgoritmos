@@ -31,7 +31,7 @@ double Log_BinCoef(int n, int k, double base){
 int main(int argc, char *argv[]){
 	int n=atoi(argv[1]);
         int k=atoi(argv[2]);
-	double base=atoi(argv[3]);
+	double base=atof(argv[3]);
 	
 	double a=BinCoef(n,k);	
 	double b=Log_BinCoef(n,k,base);
