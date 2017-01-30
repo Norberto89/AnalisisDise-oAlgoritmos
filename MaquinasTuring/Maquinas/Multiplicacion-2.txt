@@ -2,6 +2,5 @@
 s init s init right
 s 1 s 1 right
 s 0 s 0 right
-s blank q blank left
-q 1 no 1 stay
-q 0 yes 0 stay
+s blank q blank stay
+q blank stop 0 stay
