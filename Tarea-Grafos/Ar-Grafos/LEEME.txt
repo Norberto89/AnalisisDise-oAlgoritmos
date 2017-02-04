@@ -1,4 +1,4 @@
 **Para representar un grafo se sigue la siguiente estructura
 Dirigido si/no
 Vertices # de vertices
-**Vecinos de cada uno de los vertices (separados por un salto de línea), representados por números del (0,# de vertices -1)
+**Vecinos de cada uno de los vertices (separados por un salto de lÃ­nea), representados por nÃºmeros del [0,# de vertices -1]
