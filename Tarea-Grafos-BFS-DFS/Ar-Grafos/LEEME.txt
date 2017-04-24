@@ -1,0 +1,4 @@
+**Para representar un grafo se sigue la siguiente estructura
+Dirigido si/no
+Vertices # de vertices
+**Vecinos de cada uno de los vertices (separados por un salto de línea), representados por números del [0,# de vertices -1]
