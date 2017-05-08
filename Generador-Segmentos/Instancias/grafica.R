@@ -1,0 +1,5 @@
+data = read.csv("segmentos_5.txt", sep=" ", header=FALSE)
+names(data) = c("x1", "y1", "x2", "y2")
+plot(data$x1, data$y1)
+points(data$x2,data$y2)
+segments(data$x1,data$y1, data$x2, data$y2)
