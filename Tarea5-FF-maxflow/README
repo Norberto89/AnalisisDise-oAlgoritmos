@@ -1,0 +1,1 @@
+Se utilizan los montículos (max-heap) para mantener ordenados los vecinos de cada nodo, y se toman en orden al realizar el bfs para encontrar un camino del source al sink.
