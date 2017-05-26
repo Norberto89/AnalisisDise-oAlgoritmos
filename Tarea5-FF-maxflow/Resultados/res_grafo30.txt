@@ -1,0 +1,193 @@
+Archivo: Instancias/grafo30.txt leido correctamente.
+
+
+Envio 1:
+Capacidad de flujo: 56
+Arcos: 
+24	9
+2	24
+____________________________________
+
+
+Envio 2:
+Capacidad de flujo: 65
+Arcos: 
+6	9
+2	6
+____________________________________
+
+
+Envio 3:
+Capacidad de flujo: 71
+Arcos: 
+8	9
+2	8
+____________________________________
+
+
+Envio 4:
+Capacidad de flujo: 50
+Arcos: 
+10	9
+2	10
+____________________________________
+
+
+Envio 5:
+Capacidad de flujo: 82
+Arcos: 
+26	9
+2	26
+____________________________________
+
+
+Envio 6:
+Capacidad de flujo: 72
+Arcos: 
+14	9
+2	14
+____________________________________
+
+
+Envio 7:
+Capacidad de flujo: 52
+Arcos: 
+21	9
+2	21
+____________________________________
+
+
+Envio 8:
+Capacidad de flujo: 26
+Arcos: 
+23	9
+10	23
+2	10
+____________________________________
+
+
+Envio 9:
+Capacidad de flujo: 26
+Arcos: 
+1	9
+14	1
+2	14
+____________________________________
+
+
+Envio 10:
+Capacidad de flujo: 11
+Arcos: 
+6	9
+21	6
+2	21
+____________________________________
+
+
+Envio 11:
+Capacidad de flujo: 1
+Arcos: 
+24	9
+21	24
+2	21
+____________________________________
+
+
+Envio 12:
+Capacidad de flujo: 36
+Arcos: 
+19	9
+21	19
+2	21
+____________________________________
+
+
+Envio 13:
+Capacidad de flujo: 15
+Arcos: 
+19	9
+28	19
+2	28
+____________________________________
+
+
+Envio 14:
+Capacidad de flujo: 37
+Arcos: 
+1	9
+28	1
+2	28
+____________________________________
+
+
+Envio 15:
+Capacidad de flujo: 57
+Arcos: 
+3	9
+5	3
+2	5
+____________________________________
+
+
+Envio 16:
+Capacidad de flujo: 52
+Arcos: 
+11	9
+4	11
+2	4
+____________________________________
+
+
+Envio 17:
+Capacidad de flujo: 8
+Arcos: 
+23	9
+4	23
+2	4
+____________________________________
+
+
+Envio 18:
+Capacidad de flujo: 38
+Arcos: 
+3	9
+15	3
+2	15
+____________________________________
+
+
+Envio 19:
+Capacidad de flujo: 23
+Arcos: 
+23	9
+15	23
+2	15
+____________________________________
+
+
+Envio 20:
+Capacidad de flujo: 37
+Arcos: 
+1	9
+16	1
+2	16
+____________________________________
+
+
+Envio 21:
+Capacidad de flujo: 14
+Arcos: 
+8	9
+16	8
+2	16
+____________________________________
+
+
+Envio 22:
+Capacidad de flujo: 12
+Arcos: 
+26	9
+22	26
+2	22
+____________________________________
+Max Flow: 841

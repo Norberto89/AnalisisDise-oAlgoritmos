@@ -1,0 +1,437 @@
+Archivo: Instancias/grafo50.txt leido correctamente.
+
+
+Envio 1:
+Capacidad de flujo: 57
+Arcos: 
+27	9
+2	27
+____________________________________
+
+
+Envio 2:
+Capacidad de flujo: 59
+Arcos: 
+11	9
+2	11
+____________________________________
+
+
+Envio 3:
+Capacidad de flujo: 64
+Arcos: 
+23	9
+2	23
+____________________________________
+
+
+Envio 4:
+Capacidad de flujo: 76
+Arcos: 
+44	9
+2	44
+____________________________________
+
+
+Envio 5:
+Capacidad de flujo: 86
+Arcos: 
+10	9
+2	10
+____________________________________
+
+
+Envio 6:
+Capacidad de flujo: 90
+Arcos: 
+28	9
+2	28
+____________________________________
+
+
+Envio 7:
+Capacidad de flujo: 56
+Arcos: 
+15	9
+2	15
+____________________________________
+
+
+Envio 8:
+Capacidad de flujo: 65
+Arcos: 
+35	9
+2	35
+____________________________________
+
+
+Envio 9:
+Capacidad de flujo: 5
+Arcos: 
+10	9
+44	10
+2	44
+____________________________________
+
+
+Envio 10:
+Capacidad de flujo: 32
+Arcos: 
+46	9
+35	46
+2	35
+____________________________________
+
+
+Envio 11:
+Capacidad de flujo: 39
+Arcos: 
+25	9
+15	25
+2	15
+____________________________________
+
+
+Envio 12:
+Capacidad de flujo: 8
+Arcos: 
+10	9
+13	10
+2	13
+____________________________________
+
+
+Envio 13:
+Capacidad de flujo: 25
+Arcos: 
+11	9
+13	11
+2	13
+____________________________________
+
+
+Envio 14:
+Capacidad de flujo: 17
+Arcos: 
+38	9
+13	38
+2	13
+____________________________________
+
+
+Envio 15:
+Capacidad de flujo: 53
+Arcos: 
+48	9
+6	48
+2	6
+____________________________________
+
+
+Envio 16:
+Capacidad de flujo: 1
+Arcos: 
+18	9
+6	18
+2	6
+____________________________________
+
+
+Envio 17:
+Capacidad de flujo: 50
+Arcos: 
+5	9
+8	5
+2	8
+____________________________________
+
+
+Envio 18:
+Capacidad de flujo: 7
+Arcos: 
+46	9
+8	46
+2	8
+____________________________________
+
+
+Envio 19:
+Capacidad de flujo: 51
+Arcos: 
+45	9
+32	45
+2	32
+____________________________________
+
+
+Envio 20:
+Capacidad de flujo: 6
+Arcos: 
+36	9
+32	36
+2	32
+____________________________________
+
+
+Envio 21:
+Capacidad de flujo: 51
+Arcos: 
+47	9
+42	47
+2	42
+____________________________________
+
+
+Envio 22:
+Capacidad de flujo: 7
+Arcos: 
+23	9
+42	23
+2	42
+____________________________________
+
+
+Envio 23:
+Capacidad de flujo: 67
+Arcos: 
+18	9
+34	18
+2	34
+____________________________________
+
+
+Envio 24:
+Capacidad de flujo: 2
+Arcos: 
+27	9
+34	27
+2	34
+____________________________________
+
+
+Envio 25:
+Capacidad de flujo: 54
+Arcos: 
+21	9
+49	21
+2	49
+____________________________________
+
+
+Envio 26:
+Capacidad de flujo: 16
+Arcos: 
+14	9
+49	14
+2	49
+____________________________________
+
+
+Envio 27:
+Capacidad de flujo: 51
+Arcos: 
+36	9
+12	36
+2	12
+____________________________________
+
+
+Envio 28:
+Capacidad de flujo: 23
+Arcos: 
+33	9
+12	33
+2	12
+____________________________________
+
+
+Envio 29:
+Capacidad de flujo: 6
+Arcos: 
+45	9
+19	45
+2	19
+____________________________________
+
+
+Envio 30:
+Capacidad de flujo: 4
+Arcos: 
+47	9
+19	47
+2	19
+____________________________________
+
+
+Envio 31:
+Capacidad de flujo: 65
+Arcos: 
+3	9
+19	3
+2	19
+____________________________________
+
+
+Envio 32:
+Capacidad de flujo: 12
+Arcos: 
+23	9
+1	23
+2	1
+____________________________________
+
+
+Envio 33:
+Capacidad de flujo: 55
+Arcos: 
+25	9
+1	25
+2	1
+____________________________________
+
+
+Envio 34:
+Capacidad de flujo: 7
+Arcos: 
+36	9
+1	36
+2	1
+____________________________________
+
+
+Envio 35:
+Capacidad de flujo: 3
+Arcos: 
+38	9
+1	38
+2	1
+____________________________________
+
+
+Envio 36:
+Capacidad de flujo: 46
+Arcos: 
+46	9
+20	46
+2	20
+____________________________________
+
+
+Envio 37:
+Capacidad de flujo: 1
+Arcos: 
+3	9
+20	3
+2	20
+____________________________________
+
+
+Envio 38:
+Capacidad de flujo: 30
+Arcos: 
+33	9
+20	33
+2	20
+____________________________________
+
+
+Envio 39:
+Capacidad de flujo: 26
+Arcos: 
+21	9
+37	21
+2	37
+____________________________________
+
+
+Envio 40:
+Capacidad de flujo: 27
+Arcos: 
+33	9
+37	33
+2	37
+____________________________________
+
+
+Envio 41:
+Capacidad de flujo: 41
+Arcos: 
+38	9
+7	38
+2	7
+____________________________________
+
+
+Envio 42:
+Capacidad de flujo: 12
+Arcos: 
+27	9
+7	27
+2	7
+____________________________________
+
+
+Envio 43:
+Capacidad de flujo: 26
+Arcos: 
+31	9
+7	31
+2	7
+____________________________________
+
+
+Envio 44:
+Capacidad de flujo: 78
+Arcos: 
+40	9
+29	40
+2	29
+____________________________________
+
+
+Envio 45:
+Capacidad de flujo: 20
+Arcos: 
+14	9
+29	14
+2	29
+____________________________________
+
+
+Envio 46:
+Capacidad de flujo: 51
+Arcos: 
+14	9
+24	14
+2	24
+____________________________________
+
+
+Envio 47:
+Capacidad de flujo: 1
+Arcos: 
+40	9
+24	40
+2	24
+____________________________________
+
+
+Envio 48:
+Capacidad de flujo: 25
+Arcos: 
+31	9
+33	31
+37	33
+2	37
+____________________________________
+
+
+Envio 49:
+Capacidad de flujo: 22
+Arcos: 
+31	9
+30	31
+24	30
+2	24
+____________________________________
+Max Flow: 1676

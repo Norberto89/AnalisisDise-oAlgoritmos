@@ -1,0 +1,129 @@
+Archivo: Instancias/grafo20.txt leido correctamente.
+
+
+Envio 1:
+Capacidad de flujo: 62
+Arcos: 
+2	9
+____________________________________
+
+
+Envio 2:
+Capacidad de flujo: 57
+Arcos: 
+5	9
+2	5
+____________________________________
+
+
+Envio 3:
+Capacidad de flujo: 74
+Arcos: 
+3	9
+2	3
+____________________________________
+
+
+Envio 4:
+Capacidad de flujo: 76
+Arcos: 
+10	9
+2	10
+____________________________________
+
+
+Envio 5:
+Capacidad de flujo: 89
+Arcos: 
+8	9
+2	8
+____________________________________
+
+
+Envio 6:
+Capacidad de flujo: 73
+Arcos: 
+17	9
+2	17
+____________________________________
+
+
+Envio 7:
+Capacidad de flujo: 73
+Arcos: 
+6	9
+2	6
+____________________________________
+
+
+Envio 8:
+Capacidad de flujo: 11
+Arcos: 
+14	9
+5	14
+2	5
+____________________________________
+
+
+Envio 9:
+Capacidad de flujo: 23
+Arcos: 
+4	9
+17	4
+2	17
+____________________________________
+
+
+Envio 10:
+Capacidad de flujo: 9
+Arcos: 
+8	9
+6	8
+2	6
+____________________________________
+
+
+Envio 11:
+Capacidad de flujo: 18
+Arcos: 
+16	9
+6	16
+2	6
+____________________________________
+
+
+Envio 12:
+Capacidad de flujo: 53
+Arcos: 
+0	9
+18	0
+2	18
+____________________________________
+
+
+Envio 13:
+Capacidad de flujo: 15
+Arcos: 
+10	9
+1	10
+2	1
+____________________________________
+
+
+Envio 14:
+Capacidad de flujo: 63
+Arcos: 
+15	9
+1	15
+2	1
+____________________________________
+
+
+Envio 15:
+Capacidad de flujo: 18
+Arcos: 
+0	9
+1	0
+2	1
+____________________________________
+Max Flow: 714
