@@ -64,7 +64,7 @@ void Grafo::bfs(int verIn){
 	BFS_ver verT,verT2;
 	list<BFS_ver> nVis;
 	set<BFS_ver> vis;
-	
+	set<int> labeled;
 	verT.id=verIn;
 	verT.level=0;
 
@@ -73,12 +73,14 @@ void Grafo::bfs(int verIn){
 		verT=*nVis.begin();
 		vis.insert(verT);
 		nVis.pop_front();
+		labeled.insert(verT.id);
 		if(_Vertices[verT.id].Neighbors.size()!=0){
 			for (auto el:_Vertices[verT.id].Neighbors){
 				verT2.id=el;
 				verT2.level=verT.level+1;
-				if(vis.find(verT2)==vis.end()){
-					nVis.push_back(verT2);	
+				if(vis.find(verT2)==vis.end() && labeled.find(verT2.id)==labeled.end()){
+					nVis.push_back(verT2);
+					labeled.insert(verT2.id);	
 				}
 			}
 		}
@@ -94,7 +96,7 @@ void Grafo::dfs(int verIn){
 	DFS_ver verT,verT2;
 	list<DFS_ver> nVis;
 	set<DFS_ver> vis;
-
+	set<int> labeled;
 	verT.id = verIn;
 	verT.parent = -1;
 	
@@ -104,12 +106,14 @@ void Grafo::dfs(int verIn){
 		verT=nVis.back();
 		vis.insert(verT);
 		nVis.pop_back();
+		labeled.insert(verT.id);
 		if(_Vertices[verT.id].Neighbors.size()!=0){
 			for (auto el:_Vertices[verT.id].Neighbors){
 				verT2.id=el;
 				verT2.parent=verT.id;
-				if(vis.find(verT2)==vis.end()){
+				if(vis.find(verT2)==vis.end() && labeled.find(verT2.id)==labeled.end()){
 					nVis.push_back(verT2);	
+					labeled.insert(verT2.id);
 				}
 			}			
 		}
