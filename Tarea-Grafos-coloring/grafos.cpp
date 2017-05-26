@@ -63,26 +63,33 @@ void Grafo::Imprimir(){
 void Grafo::bfs(int verIn){
 	BFS_ver verT,verT2;
 	list<BFS_ver> nVis;
-	//set<BFS_ver> vis;
-	
+	set<BFS_ver> vis;
+	set<int> labeled;
 	verT.id=verIn;
 	verT.level=0;
 
 	nVis.push_back(verT);
+
 	while(!nVis.empty()){
 		verT=*nVis.begin();
-		_bfs.insert(verT);
+		vis.insert(verT);
 		nVis.pop_front();
+		
+		_bfs.insert(verT);
+		labeled.insert(verT.id);
 		if(_Vertices[verT.id].Neighbors.size()!=0){
 			for (auto el:_Vertices[verT.id].Neighbors){
 				verT2.id=el;
 				verT2.level=verT.level+1;
-				if(_bfs.find(verT2)==_bfs.end()){
-					nVis.push_back(verT2);	
+				if(vis.find(verT2)==vis.end() && labeled.find(verT2.id)==labeled.end()){
+					nVis.push_back(verT2);
+					labeled.insert(verT2.id);	
 				}
 			}
 		}
 	}
+
+	
 	
 	for(auto el:_bfs){
 		cout << el.id << "\t" << el.level << endl;
@@ -93,27 +100,32 @@ void Grafo::bfs(int verIn){
 void Grafo::dfs(int verIn){
 	DFS_ver verT,verT2;
 	list<DFS_ver> nVis;
-	//set<DFS_ver> vis;
-
+	set<DFS_ver> vis;
+	set<int> labeled;
 	verT.id = verIn;
 	verT.parent = -1;
 	
 	nVis.push_back(verT);
 	
+
 	while(!nVis.empty()){
 		verT=nVis.back();
-		_dfs.insert(verT);
+		vis.insert(verT);
 		nVis.pop_back();
+		_dfs.insert(verT);
+		labeled.insert(verT.id);
 		if(_Vertices[verT.id].Neighbors.size()!=0){
 			for (auto el:_Vertices[verT.id].Neighbors){
 				verT2.id=el;
 				verT2.parent=verT.id;
-				if(_dfs.find(verT2)==_dfs.end()){
+				if(vis.find(verT2)==vis.end() && labeled.find(verT2.id)==labeled.end()){
 					nVis.push_back(verT2);	
+					labeled.insert(verT2.id);
 				}
 			}			
 		}
-	}	
+	}
+	
 	for(auto el:_dfs){
 		cout << el.id << "\t" << el.parent << endl;
 	}
