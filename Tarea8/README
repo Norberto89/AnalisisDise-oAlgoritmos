@@ -1,0 +1,3 @@
+Los resultados están divididos en carpetas con nombre Resultados_%a_%i; donde %a es un parámetro flotante que determina
+el valor mínimo del tamaño de paso del método subgradiente, e %i es un parámetro entero que determina el núnemero de 
+iteraciones de espera para cambiar el tamaño de paso después de no mejorar la cota.
