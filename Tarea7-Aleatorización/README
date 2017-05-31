@@ -1,6 +1,0 @@
-Se realizo una experimentación con 10 repeticiones para cada opción de definir los multiplicadores lagrangianos. En el 
-gráfico se muestran los promedios de tiempo para cada opción.
-
-La opción Fijos, se fijan a cero todos los multiplicadores; Random, se utiliza la función rand() (que genera números
-pseudo-aleatorios) para definir cada multiplicador; Normal, se utiliza distribucion normal para generar los valores de los
-multiplicadores; Uniforme, se utiliza una distribución uniforme entera para generar los valores de los multiplicadores.
