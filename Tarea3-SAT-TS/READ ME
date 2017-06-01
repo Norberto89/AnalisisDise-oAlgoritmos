@@ -1,1 +1,4 @@
-En este código está programado un tabu search para el 1-SAT.
+En este código está programado un tabu search para el 1-SAT. Donde, en el inicio, se fijan todas las variables con un valor
+falso; y después se selecciona un nodo (con una distribución uniforme) y se le cambia el valor. Posteriormente, el nodo 
+seleccionado se guarda en la lista tabú y no puede ser seleccionado de nuevo, hasta pasadas 5 iteraciones (este parámetro
+puede ser modificado).
