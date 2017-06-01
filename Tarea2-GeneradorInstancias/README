@@ -1,1 +1,6 @@
-Generador de instancias para el shift scheduling problem.
+Generador de instancias para el shift scheduling problem. Para generarlas, se tomó en cuenta que todos los empleados
+pueden realizar cualquier actividad y, cada turno, debe durar 8 horas laborales y existe flexibilidad en el periodo de inicio.
+El horizonte de planeación esta conformado por 64 periodos de 15 minutos; es decir, sobre dos turnos diurnos de 8 horas.
+El programa recibe como argumentos el nombre del archivo en el que se va a guardar, el número de empleados, la cantidad
+de actividades y la cantidad de demanda máxima. Posteriormente, se genera una curva como composición de dos curvas normales con
+valores máximos iguales al valor de la máxima demanda, y así dsitribuir la demanda total entre las distintas actividades.
