@@ -1,1 +1,3 @@
-Se utilizan los montículos (max-heap) para mantener ordenados (por capacidad de flujo) los vecinos de cada nodo, y se toman en orden al realizar el bfs para encontrar un camino del source al sink.
+Se utilizan los montículos (max-heap) para mantener ordenados (por capacidad de flujo) los vecinos de cada nodo, 
+y se corre el algoritmo bfs, recorriendo el grafo por las aristas de mayor capacidad en cada nivel, 
+para encontrar un camino del source al sink.
